@@ -28,13 +28,15 @@ const BLOG_POSTS_DATA = [
     filename: '1-hello-world',
     title: 'Hello World!',
     date: '2026-02-01',
-    excerpt: "Hi, I'm Manuarsan and this is the first entry of this post. Manuarsan is just a nickname, by the way."
+    excerpt: "Hi, I'm Manuarsan and this is the first entry of this post.",
+    draft: false
   },
   {
     filename: '2-career-compounding-interest-reflection',
     title: 'Career Compounding Interest Reflection',
     date: '2026-02-01',
-    excerpt: 'I studied English literature and linguistics in Barcelona. I spent my fourth and last university year in California as an exchange student.'
+    excerpt: 'I studied English literature and linguistics in Barcelona. I spent my fourth and last university year in California as an exchange student.',
+    draft: true
   }
 ];
 
@@ -75,8 +77,6 @@ function displayLatestBlogPosts() {
   const container = document.getElementById('latest-blog-posts');
   
   if (!container) {
-    // Try again after a short delay
-    setTimeout(displayLatestBlogPosts, 100);
     return;
   }
   
@@ -91,8 +91,11 @@ function displayLatestBlogPosts() {
       }
     });
     
+    // Filter out draft posts
+    const publishedPosts = BLOG_POSTS_DATA.filter(post => !post.draft);
+    
     // Sort posts by date (newest first), then by filename if dates are equal
-    const sortedPosts = [...BLOG_POSTS_DATA].sort((a, b) => {
+    const sortedPosts = [...publishedPosts].sort((a, b) => {
       if (a.date && b.date) {
         const dateDiff = new Date(b.date) - new Date(a.date);
         if (dateDiff !== 0) return dateDiff;
@@ -155,40 +158,10 @@ function displayLatestBlogPosts() {
   }
 }
 
-// Run when DOM is ready - try multiple approaches
-(function() {
-  function init() {
-    // Try multiple times to ensure container exists
-    let attempts = 0;
-    const maxAttempts = 50;
-    
-    function tryDisplay() {
-      attempts++;
-      const container = document.getElementById('latest-blog-posts');
-      
-      if (container) {
-        displayLatestBlogPosts();
-      } else if (attempts < maxAttempts) {
-        setTimeout(tryDisplay, 100);
-      } else {
-        console.error('Could not find container after', maxAttempts, 'attempts');
-      }
-    }
-    
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(tryDisplay, 50);
-      });
-    } else {
-      setTimeout(tryDisplay, 50);
-    }
-    
-    // Also try on window load as backup
-    window.addEventListener('load', function() {
-      setTimeout(tryDisplay, 50);
-    });
-  }
-  
-  init();
-})();
+// Run when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', displayLatestBlogPosts);
+} else {
+  displayLatestBlogPosts();
+}
 

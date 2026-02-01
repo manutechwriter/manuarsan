@@ -1,9 +1,6 @@
-# Welcome to Manuarsan
-
-Welcome to my personal site and blog.
+# Welcome to Manuarsan's Blog
 
 ## Latest Blog Posts
 
 <div id="latest-blog-posts">
-  <p>Loading blog posts...</p>
 </div>
