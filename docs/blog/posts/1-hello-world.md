@@ -1,0 +1,80 @@
+---
+date:
+  created: 2026-02-01
+---
+
+# Hello World!
+
+Hi, I'm Manuarsan and this is the first entry of this blog. If this is the first time we meet, hi! You can call me just Manu.
+
+So, what is this site about and why I'm I building it? And how am I developing this blog? All those answers will hopefully get answered either in this first entry or in later ones.
+
+So let's just get started.
+
+## What is this site about?
+
+!!! note "First of all"
+    This site is meant to be some kind of journal for me to just help organize my mind.
+
+I am a technical writer. I've actually been a tech writer for many years if not my entire career, where I've applied technical communication in way or another.
+
+I am 37 years old. I live in Barcelona, Spain. I will talk more about my experience later, but even though I don't *fully* know yet what this site will be about, one thing is for sure: it will include content about writing, not just technical writing but also creative and even copywriting, and about learning experience design. It will also have my personal reflections about the power of words in general. I may also add some gaming or gamification topics. Becuase one of the things I'm most passionate about is **learning by playing**.
+
+## Why am I creating this site?
+
+Because I'm purpose-driven. And my purpose has been changing or, put it in better words, *evolving*.
+
+The word *evolving* is key because it reflects one of the more important things I've been thinking about lately: something I just call the career compound interest. I'm sure there's a better way to call it but I will try to explain it now:
+
+!!! question "What do I mean by *career compount interest*?"
+    Ok, so I've actually used chatGPT to search for that. I don't know where I read or heard that concept before, but I'm just rewriting the definition:
+
+    *Career compound interest means that small efforts you make early in your career grow into much bigger rewards later - just like money earning interest in a bank.*
+
+That may be confusing for some, but lifechanging for others. It's being lifechanging for me at least.
+
+Actually, thinking about career compound interest makes fe feel *freer*. Let me explain.
+
+Overall, *I just want to live well enough to be able to provide my family with a life better than the one that I'm having now so we can enjoy the better future together.*
+
+But there are some uncertain events that are impacting my confidence. I even stopped watching the news because it just filled my mind with more chaos than the mess I already had. For example, the layoffs that are happening in the software industry nowadays are truly shocking.
+
+Thousands of employees have been laid off in less than one year. I'm still there, but that makes me think about how to bring myself together and regain control of my mental - and corporal too - wellbeing.
+
+So I think: *Is my career still relevant in the present and future? I guess it is, but how can I feel even more confident about it?*
+
+*Should I evaluate other career options that may reinforce the impact of my role even more than now?*
+
+*What am I supposed to do? Do I need a plan B? Or is it better to just keep the focus on the current plan A as the only plan if we can even call it that way because, really, what's the plan?*
+
+I've worked in many different things since I was 16 years old. It is not easy to think of myself as a specialist - tho I think I am in one way or another due to the career decisions I've made in the recent years.
+
+And the main reason why I'm building this site is to clarify what my professional specialization is, if any, and keep growing my career compound interest.
+
+This feels more important than ever for me at this stage of my life.
+
+I got married in December (so not even a couple of months ago yet). I traveled to Japan and it was great. I've been with my wife for 15 years now - such a milestone. And the family could grow in the near future. So yeah, job and income stability *is* critical.
+
+And I'm one of the lucky ones because throughout my career I've build many projects and learned a lot of skills - now the question is, how do those skills complement each other towards the same goal? And what is that goal?
+
+I think I have some good answers too all those questions. But I just one to keep thinking and writing them down. And writing them well.
+
+Because, as the American writer Ambrose Bierce said:
+
+!!! quote "Good writing is clear thinking made visible."
+
+I'll keep writing, but for now I need to pause. Time for lunch.
+
+But I'm happy, I've just written this page in Markdown and -
+
+*Wait, Markdown, really?* - you might be wondering. The answer is: yes. But I'll talk more about that in maybe the 3rd blog post?
+
+For the 2nd one, I'll share what my career so far looks like. Brace yourself.
+
+(It's funny because I'm writig this to myself basically but I may publish this on a website - I used to be, and still sometimes act as a, web developer).
+
+So if I've published this and you've read this, nice! Thank you and until next time.
+
+
+
+
