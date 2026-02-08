@@ -34,9 +34,9 @@ const BLOG_POSTS_DATA = [
   {
     filename: '2-career-compounding-interest-reflection',
     title: 'Career Compounding Interest Reflection',
-    date: '2026-02-01',
-    excerpt: 'I studied English literature and linguistics in Barcelona. I spent my fourth and last university year in California as an exchange student.',
-    draft: true
+    date: '2026-02-08',
+    excerpt: 'This week I've been reflecting on what my future should look like based on my past experiences. A journey from fast food restaurants to technical writing and learning experience design.',
+    draft: false
   }
 ];
 
@@ -164,4 +164,3 @@ if (document.readyState === 'loading') {
 } else {
   displayLatestBlogPosts();
 }
-
