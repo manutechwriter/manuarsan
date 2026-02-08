@@ -37,6 +37,13 @@ const BLOG_POSTS_DATA = [
     date: '2026-02-08',
     excerpt: "This week I've been reflecting on what my future should look like based on my past experiences. A journey from fast food restaurants to technical writing and learning experience design.",
     draft: false
+  },
+  {
+    filename: '3-investments-tech-comm-business-impact',
+    title: 'Why Learning About Investments Can Make Tech Comm Matter More',
+    date: '2026-02-15',
+    excerpt: "What EBIT and EBITDA mean in tech comm terms, and how onboarding and learning experiences improve the numbers the business cares about.",
+    draft: true
   }
 ];
 
