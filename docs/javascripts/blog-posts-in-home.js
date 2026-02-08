@@ -35,7 +35,7 @@ const BLOG_POSTS_DATA = [
     filename: '2-career-compounding-interest-reflection',
     title: 'Career Compounding Interest Reflection',
     date: '2026-02-08',
-    excerpt: 'This week I've been reflecting on what my future should look like based on my past experiences. A journey from fast food restaurants to technical writing and learning experience design.',
+    excerpt: "This week I've been reflecting on what my future should look like based on my past experiences. A journey from fast food restaurants to technical writing and learning experience design.",
     draft: false
   }
 ];
@@ -74,7 +74,7 @@ function findBlogUrlsFromNavigation() {
 // Function to display the latest blog posts
 function displayLatestBlogPosts() {
   // Find the container where posts should be displayed
-  const container = document.getElementById('latest-blog-posts');
+  const container = document.getElementById('latest-blog-posts-container');
   
   if (!container) {
     return;
@@ -158,9 +158,13 @@ function displayLatestBlogPosts() {
   }
 }
 
-// Run when DOM is ready
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', displayLatestBlogPosts);
-} else {
+// Run when DOM is ready; fallback on load in case content is injected later
+function initBlogPosts() {
   displayLatestBlogPosts();
 }
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initBlogPosts);
+} else {
+  initBlogPosts();
+}
+window.addEventListener('load', initBlogPosts);

@@ -2,5 +2,4 @@
 
 ## Latest Blog Posts
 
-<div id="latest-blog-posts">
-</div>
+<div id="latest-blog-posts-container"></div>
