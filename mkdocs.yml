@@ -1,6 +1,9 @@
 site_name: Manuarsan
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
 
 markdown_extensions:
   - admonition
@@ -17,5 +20,10 @@ markdown_extensions:
 
 plugins:
   - search
-  - blog:
-      blog_dir: blog
+  - blog
+
+# This hides the sidebar on the homepage
+# but keeps it for blog posts
+nav:
+  - Home: index.md
+  - Blog: blog/index.md
