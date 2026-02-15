@@ -18,6 +18,3 @@ markdown_extensions:
 plugins:
   - search
   - blog
-
-extra_javascript:
-  - javascripts/blog-posts-in-home.js
