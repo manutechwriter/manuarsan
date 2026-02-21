@@ -1,0 +1,11 @@
+{
+  "name": "manuarsan",
+  "private": true,
+  "description": "Scripts for blog (e.g. post to X on new post)",
+  "scripts": {
+    "post-to-x": "node scripts/post-to-x.js"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.17.2"
+  }
+}
