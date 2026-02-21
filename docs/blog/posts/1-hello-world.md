@@ -72,7 +72,7 @@ For the 2nd one, I'll share what my career so far looks like. Brace yourself.
 
 (It's funny because I'm writig this to myself basically but I may publish this on a website - I used to be, and still sometimes act as a, web developer).
 
-So if I've published this and you've read this, nice! Thank you and until next time.
+So if I've published this and you've read this, nice! Thank you and until next time :)
 
 
 
